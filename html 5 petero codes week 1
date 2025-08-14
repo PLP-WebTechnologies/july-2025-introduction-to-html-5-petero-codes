@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- SEO Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Learn about HTML5, Accessibility, and SEO basics in a beginner-friendly example.">
+    <meta name="keywords" content="HTML5, Accessibility, SEO, Web Development">
+    <meta name="author" content="Your Name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML5 + Accessibility & SEO Basics</title>
+</head>
+<body>
+    <!-- Header with site title -->
+    <header>
+        <h1>HTML5 + Accessibility & SEO Basics</h1>
+    </header>
+
+    <!-- Navigation landmark -->
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#about" title="Learn about this page">About</a></li>
+            <li><a href="#accessibility" title="Learn about Accessibility">Accessibility</a></li>
+            <li><a href="#seo" title="Learn about SEO">SEO</a></li>
+            <li><a href="#contact" title="Contact us">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+        <!-- About section -->
+        <section id="about">
+            <h2>About This Page</h2>
+            <p>This page is built using semantic HTML5 elements, with accessibility and SEO best practices in mind.</p>
+        </section>
+
+        <!-- Accessibility section -->
+        <section id="accessibility">
+            <h2>Accessibility in HTML5</h2>
+            <p>Accessibility ensures that web content is usable by everyone, including people with disabilities. 
+               HTML5 introduces landmarks like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> 
+               that help screen readers understand page structure.</p>
+        </section>
+
+        <!-- SEO section -->
+        <section id="seo">
+            <h2>SEO Basics</h2>
+            <p>SEO (Search Engine Optimization) improves how search engines index and rank your page. 
+               Use descriptive headings, relevant keywords, and well-structured content to help both users and search engines.</p>
+        </section>
+    </main>
+
+    <!-- Footer with contact info -->
+    <footer id="contact">
+        <h2>Contact Information</h2>
+        <address>
+            Email: <a href="mailto:info@example.com">info@example.com</a><br>
+            Phone: <a href="tel:+1234567890">+1 234 567 890</a>
+        </address>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
